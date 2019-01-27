@@ -1,0 +1,16 @@
+Index: app/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_main.xml	(date 1548567068000)
++++ app/src/main/res/layout/activity_main.xml	(date 1548567538000)
+@@ -9,7 +9,7 @@
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+-        android:text="Miledriod"
++        android:text="Miles tone"
+         android:textAlignment="center"
+         android:textSize="36sp"
+         android:textStyle="bold|italic"
