@@ -17,4 +17,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CreateNewProfile.class);
         startActivity(intent);
     }
+    public void OpenFeed(View view){
+        Intent intent = new Intent(this, Feed.class);
+        startActivity(intent);
+    }
 }

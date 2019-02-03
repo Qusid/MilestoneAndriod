@@ -1,11 +1,14 @@
 <resources>
     <string name="app_name">Milestone Android</string>
     <string name="APP">Milestone</string>
-    <string name="email" >Email</string>
+    <string name="email">Email</string>
     <string name="password">password</string>
     <string name="uname">Username</string>
     <string name="Sign_up">Sign up</string>
     <string name="L_G_S">Let\'s Get Started</string>
     <string name="Sign_In">Sign In</string>
     <string name="Dont_have_account">Don\'t have an account?</string>
+    <string name="refresh">Refresh</string>
+    <string name="feed">Feed</string>
+    <string name="todo">TODO</string>
 </resources>
