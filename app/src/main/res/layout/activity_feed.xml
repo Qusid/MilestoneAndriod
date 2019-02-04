@@ -54,4 +54,16 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
         android:background="@drawable/cat"
         android:contentDescription="@string/todo" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="61dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/plus"
+        android:contentDescription="@string/todo"
+        android:onClick="OpenUploadFeed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>
