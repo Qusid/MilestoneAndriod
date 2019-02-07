@@ -13,7 +13,9 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import com.google.firebase.storage.FirebaseStorage;
 import com.squareup.picasso.Picasso;
+
 
 public class UploadFeed extends AppCompatActivity {
     // Image loading result to pass to startActivityForResult method.
@@ -29,7 +31,7 @@ public class UploadFeed extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
 
-
+        FirebaseStorage storage = FirebaseStorage.getInstance();
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_upload_feed);
