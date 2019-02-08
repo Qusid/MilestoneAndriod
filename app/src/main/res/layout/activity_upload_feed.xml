@@ -34,6 +34,7 @@
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="uploadImage"
         android:text="@string/Post"
         android:textColor="@color/design_default_color_primary"
         android:textSize="18sp"
