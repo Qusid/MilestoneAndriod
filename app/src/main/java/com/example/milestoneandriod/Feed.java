@@ -39,6 +39,10 @@ public class Feed extends AppCompatActivity {
         Intent intent = new Intent(this, UploadFeed.class);
         startActivity(intent);
     }
+    public void Refresh(View view){
+        Intent intent = new Intent(this, LoginActivity.class);
+        startActivity(intent);
+    }
 
 
 }

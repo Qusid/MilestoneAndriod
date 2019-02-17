@@ -28,6 +28,7 @@
         android:text="@string/refresh"
         android:textColor="@android:color/holo_blue_light"
         android:textSize="18sp"
+        android:onClick="Refresh"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
