@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
 // Attach and start callback with delay on resume
         if (mHandler != null && myRunnable != null) {
-            mHandler.postDelayed(myRunnable, 2000);
+            mHandler.postDelayed(myRunnable, 1000);
         }
         super.onResume();
     }
